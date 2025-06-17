@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**The Intelligent Web Preloading Engine**
+**The Intelligent Web Preloading Engine**<br>
 [![MIT License](https://img.shields.io/badge/License-MIT-success.svg?style=flat-square)](https://choosealicense.com/licenses/mit/) [![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg?style=flat-square)](https://github.com/yourusername/ghostloader) [![Size](https://img.shields.io/badge/Size-~15KB-green.svg?style=flat-square)](https://github.com/yourusername/ghostloader) [![Performance](https://img.shields.io/badge/Performance-⚡Blazing-ff6b35.svg?style=flat-square)](https://github.com/yourusername/ghostloader)
 
 *Make your web pages load at the speed of thought* 🚀
@@ -16,24 +16,6 @@
 ## 🌟 What is Ghostloader?
 
 Ghostloader is a **lightweight, intelligent preloading engine** that makes your web pages feel instant. It silently preloads pages in the background using advanced algorithms, smart caching, and connection awareness to deliver lightning-fast navigation experiences.
-
-```mermaid
-graph LR
-    A[🌐 User Visits Page] --> B[👻 Ghostloader Activates]
-    B --> C[🔍 Scans Visible Links]
-    C --> D[📊 Prioritizes by Position]
-    D --> E[🌐 Preloads Intelligently]
-    E --> F[💾 Caches Content]
-    F --> G[⚡ Instant Navigation]
-    
-    style A fill:#e1f5fe
-    style B fill:#f3e5f5
-    style C fill:#fff3e0
-    style D fill:#e8f5e8
-    style E fill:#fff8e1
-    style F fill:#fce4ec
-    style G fill:#e0f2f1
-```
 
 ### 🎯 **Why Choose Ghostloader?**
 
@@ -500,15 +482,6 @@ setInterval(() => {
 | Edge | ✅ Full | All features supported |
 | IE11 | ⚠️ Partial | No Cache API, falls back to memory |
 
-### 🔧 **Feature Detection**
-
-Ghostloader gracefully degrades when features aren't available:
-
-- **No Cache API**: Falls back to memory cache
-- **No Connection API**: Disables connection awareness
-- **No BroadcastChannel**: Disables cross-tab cache
-- **No AbortController**: Uses basic timeout handling
-
 ---
 
 ## 🚀 Performance Tips
@@ -566,6 +539,6 @@ Ghostloader.init();
 
 ---
 
-*Made with 👻 and ❤️ by the [orielhaim](https://orielhaim.com)*
+*Made with 👻 and ❤️ by [orielhaim](https://orielhaim.com)*
 
 </div> 
