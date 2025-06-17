@@ -1,0 +1,43 @@
+{
+  "name": "ghostloader",
+  "version": "1.0.0",
+  "description": "The Intelligent Web Preloading Engine",
+  "main": "dist/ghostloader.cjs.js",
+  "module": "dist/ghostloader.esm.js",
+  "browser": "dist/ghostloader.umd.js",
+  "exports": {
+    "import": "./dist/ghostloader.esm.js",
+    "require": "./dist/ghostloader.cjs.js"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "homepage": "https://github.com/orielhaim/ghostloader#readme",
+  "bugs": {
+    "url": "https://github.com/orielhaim/ghostloader/issues"
+  },
+  "keywords": [
+    "preloading",
+    "web",
+    "performance",
+    "optimization",
+    "loader",
+    "ghostloader"
+  ],
+  "author": "Oriel Haim",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orielhaim/ghostloader.git"
+  },
+  "files": [
+    "dist/",
+    "README.md"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "rollup": "^2.79.2",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}

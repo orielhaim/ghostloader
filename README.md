@@ -2,8 +2,6 @@
 
 <div align="center">
 
-![Ghostloader Logo](https://img.shields.io/badge/👻-Ghostloader-9d4edd?style=for-the-badge&labelColor=240046)
-
 **The Intelligent Web Preloading Engine**
 [![MIT License](https://img.shields.io/badge/License-MIT-success.svg?style=flat-square)](https://choosealicense.com/licenses/mit/) [![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg?style=flat-square)](https://github.com/yourusername/ghostloader) [![Size](https://img.shields.io/badge/Size-~15KB-green.svg?style=flat-square)](https://github.com/yourusername/ghostloader) [![Performance](https://img.shields.io/badge/Performance-⚡Blazing-ff6b35.svg?style=flat-square)](https://github.com/yourusername/ghostloader)
 
@@ -53,15 +51,18 @@ graph LR
 
 ### Installation
 
+#### NPM
 ```bash
-# NPM
 npm install ghostloader
+```
 
-# CDN
-<script src="https://cdn.jsdelivr.net/npm/ghostloader@latest/index.js"></script>
+#### CDN
+```html
+<!-- UMD -->
+<script src="https://cdn.jsdelivr.net/npm/ghostloader@latest/dist/ghostloader.umd.js"></script>
 
-# Direct Download
-wget https://raw.githubusercontent.com/orielhaim/ghostloader/main/index.js
+<!-- ESM -->
+<script src="https://cdn.jsdelivr.net/npm/ghostloader@latest/dist/ghostloader.esm.js" type="module"></script>
 ```
 
 ### Basic Usage
